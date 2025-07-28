@@ -480,7 +480,7 @@ do
             if window.currentContent.dropdown and window.currentContent.dropdown.open then
                 local dropdown = window.currentContent.dropdown
                 dropdown.open = not dropdown.open
-                utility:LoadImage(dropdown.dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                utility:LoadImage(dropdown.dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                 --
                 for i,v in pairs(dropdown.holder.drawings) do
                     utility:Remove(v)
