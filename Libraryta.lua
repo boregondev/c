@@ -495,7 +495,7 @@ do
             elseif window.currentContent.multibox and window.currentContent.multibox.open then
                 local multibox = window.currentContent.multibox
                 multibox.open = not multibox.open
-                utility:LoadImage(multibox.multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                utility:LoadImage(multibox.multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                 --
                 for i,v in pairs(multibox.holder.drawings) do
                     utility:Remove(v)
@@ -1410,7 +1410,7 @@ do
             Visible = page.open
         }, section.visibleContent)
         --
-        utility:LoadImage(toggle__gradient, "gradient", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+        utility:LoadImage(toggle__gradient, "gradient", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
         --
         function toggle:Get()
             return toggle.current
@@ -2417,7 +2417,7 @@ do
             Visible = page.open
         }, section.visibleContent);dropdown["dropdown_image"] = dropdown_image
         --
-        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
         utility:LoadImage(dropdown__gradient, "gradient", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
         --
         function dropdown:Update()
@@ -2503,7 +2503,7 @@ do
                         window.currentContent.dropdown = dropdown
                     else
                         dropdown.open = not dropdown.open
-                        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                         --
                         for i,v in pairs(dropdown.holder.drawings) do
                             utility:Remove(v)
@@ -2519,7 +2519,7 @@ do
                 else
                     if dropdown.open then
                         dropdown.open = not dropdown.open
-                        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                        utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                         --
                         for i,v in pairs(dropdown.holder.drawings) do
                             utility:Remove(v)
@@ -2535,7 +2535,7 @@ do
                 end
             elseif Input.UserInputType == Enum.UserInputType.MouseButton1 and dropdown.open then
                 dropdown.open = not dropdown.open
-                utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                utility:LoadImage(dropdown_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                 --
                 for i,v in pairs(dropdown.holder.drawings) do
                     utility:Remove(v)
@@ -2629,7 +2629,7 @@ do
             Visible = page.open
         }, section.visibleContent);multibox["multibox_image"] = multibox_image
         --
-        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
         utility:LoadImage(multibox__gradient, "gradient", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
         --
         function multibox:Update()
@@ -2747,7 +2747,7 @@ do
                         window.currentContent.multibox = multibox
                     else
                         multibox.open = not multibox.open
-                        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                         --
                         for i,v in pairs(multibox.holder.drawings) do
                             utility:Remove(v)
@@ -2763,7 +2763,7 @@ do
                 else
                     if multibox.open then
                         multibox.open = not multibox.open
-                        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                        utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                         --
                         for i,v in pairs(multibox.holder.drawings) do
                             utility:Remove(v)
@@ -2779,7 +2779,7 @@ do
                 end
             elseif Input.UserInputType == Enum.UserInputType.MouseButton1 and multibox.open then
                 multibox.open = not multibox.open
-                utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/image.png")
+                utility:LoadImage(multibox_image, "arrow_down", "https://ancient-pine-04fc.guybeat177.workers.dev/img/image.png")
                 --
                 for i,v in pairs(multibox.holder.drawings) do
                     utility:Remove(v)
